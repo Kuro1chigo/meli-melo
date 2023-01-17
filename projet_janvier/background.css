@@ -1,0 +1,37 @@
+html{   
+    background-color: burlywood;
+}
+
+#cadre{
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#tete {
+    width:25%;
+    min-width:300px;
+    height:50%;
+}
+
+#tete iframe{
+    display:block;
+    position:absolute;
+    top:bottom;
+}
+
+#visage{
+    z-index:999;
+}
+
+#yeux{
+    z-index:998;
+}
+
+#nez{
+    z-index:997;
+}
+
+#bouche{
+    z-index:996;
+}
